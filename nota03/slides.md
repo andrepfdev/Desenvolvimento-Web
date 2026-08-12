@@ -10,8 +10,8 @@
 
 **Disciplina:** Desenvolvimento Web  
 **Instituição:** UEMA - Universidade Estadual do Maranhão  
-**Equipe:** [Nomes dos integrantes]  
-**Data:** [Data da apresentação]
+**Equipe:** André Pereira Ferreira, Emerson dos Santos Silva, Jaqueline de Sousa Arruda  
+**Data:** 12 de agosto de 2026
 
 ---
 
@@ -201,7 +201,7 @@ GET https://unstats.un.org/sdgapi/v1/sdg/Goal/List
 4. **Estatísticas** - Dados da API em tempo real
 5. **Calculadora** - Simulador de economia
 
-**Link da aplicação:** [URL do GitHub Pages/Vercel/Netlify]
+**Link da aplicação:** https://andrepfdev.github.io/Desenvolvimento-Web/
 
 ---
 
@@ -234,12 +234,12 @@ GET https://unstats.un.org/sdgapi/v1/sdg/Goal/List
 
 **Link de Acesso:**
 ```
-https://[usuario].github.io/agua-e-vida/
+https://andrepfdev.github.io/Desenvolvimento-Web/
 ```
 
 **Código Fonte:**
 ```
-https://github.com/[usuario]/agua-e-vida
+https://github.com/andrepfdev/Desenvolvimento-Web
 ```
 
 **Estrutura de Deploy:**
@@ -339,12 +339,12 @@ https://github.com/[usuario]/agua-e-vida
 ### Dúvidas?
 
 **Contato:**
-- E-mail: [email da equipe]
-- GitHub: [perfil GitHub]
+- E-mail: andrepfdev@gmail.com
+- GitHub: https://github.com/andrepfdev
 
 **Links:**
-- Aplicação: [URL publicada]
-- Código-fonte: [repositório]
+- Aplicação: https://andrepfdev.github.io/Desenvolvimento-Web/
+- Código-fonte: https://github.com/andrepfdev/Desenvolvimento-Web
 
 ---
 
@@ -354,12 +354,12 @@ https://github.com/[usuario]/agua-e-vida
 
 **Equipe Água é Vida**
 
-[Nome 1]  
-[Nome 2]  
-[Nome 3]
+André Pereira Ferreira  
+Emerson dos Santos Silva  
+Jaqueline de Sousa Arruda
 
-**Professor(a):** [Nome do Professor]  
+**Professor(a):** [Nome do(a) Professor(a)]  
 **Disciplina:** Desenvolvimento Web  
 **Instituição:** UEMA
 
-**2025**
+**2026**

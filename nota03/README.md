@@ -116,8 +116,8 @@ Incluir nos slides:
 
 ## Links Importantes
 
-- **Aplicação Publicada:** [Inserir URL]
-- **Código-Fonte:** [Inserir URL do GitHub]
+- **Aplicação Publicada:** https://andrepfdev.github.io/Desenvolvimento-Web/
+- **Código-Fonte:** https://github.com/andrepfdev/Desenvolvimento-Web
 
 ## Referências
 
@@ -129,5 +129,6 @@ Incluir nos slides:
 ## Contato
 
 **Equipe Água é Vida**
-- E-mail: [email da equipe]
-- GitHub: [perfil GitHub]
+- André Pereira Ferreira, Emerson dos Santos Silva, Jaqueline de Sousa Arruda
+- E-mail: andrepfdev@gmail.com
+- GitHub: https://github.com/andrepfdev

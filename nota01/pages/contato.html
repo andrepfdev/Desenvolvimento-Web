@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Entre em contato conosco. Tire suas dúvidas sobre o projeto Água é Vida e o ODS 6.">
+    <title>Contato | Água é Vida - ODS 6</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="../index.html">
+                    <i class="bi bi-droplet-fill me-2"></i>Água é Vida
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Abrir menu de navegação">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sobre.html">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="dicas.html">Dicas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contato.html">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero da página -->
+        <section class="sobre-hero text-center">
+            <div class="container">
+                <h1 class="display-5 fw-bold">Contato</h1>
+                <p class="lead">Entre em contato conosco. Sua mensagem é importante!</p>
+            </div>
+        </section>
+
+        <!-- Formulário de Contato -->
+        <section class="py-5" aria-labelledby="titulo-formulario">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 id="titulo-formulario" class="fw-bold text-primary mb-4 text-center">Envie sua Mensagem</h2>
+
+                        <div class="card border-0 shadow">
+                            <div class="card-body p-4 p-md-5">
+                                <form id="formContato">
+                                    <div class="row g-4">
+                                        <div class="col-md-6">
+                                            <label for="nome" class="form-label fw-bold">Nome Completo *</label>
+                                            <input type="text" class="form-control" id="nome" name="nome" required
+                                                placeholder="Digite seu nome" aria-required="true">
+                                            <div class="invalid-feedback">Por favor, informe seu nome.</div>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <label for="email" class="form-label fw-bold">E-mail *</label>
+                                            <input type="email" class="form-control" id="email" name="email" required
+                                                placeholder="seu@email.com" aria-required="true">
+                                            <div class="invalid-feedback">Por favor, informe um e-mail válido.</div>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <label for="assunto" class="form-label fw-bold">Assunto *</label>
+                                            <select class="form-select" id="assunto" name="assunto" required aria-required="true">
+                                                <option value="" selected>Selecione o assunto</option>
+                                                <option value="duvida">Dúvida sobre o ODS 6</option>
+                                                <option value="sugestao">Sugestão de conteúdo</option>
+                                                <option value="colaboracao">Proposta de colaboração</option>
+                                                <option value="erro">Reportar erro no site</option>
+                                                <option value="outro">Outro assunto</option>
+                                            </select>
+                                            <div class="invalid-feedback">Por favor, selecione um assunto.</div>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <label for="telefone" class="form-label fw-bold">Telefone (opcional)</label>
+                                            <input type="tel" class="form-control" id="telefone" name="telefone"
+                                                placeholder="(00) 00000-0000">
+                                        </div>
+
+                                        <div class="col-12">
+                                            <label for="mensagem" class="form-label fw-bold">Mensagem *</label>
+                                            <textarea class="form-control" id="mensagem" name="mensagem" rows="5" required
+                                                placeholder="Escreva sua mensagem aqui..." aria-required="true"></textarea>
+                                            <div class="invalid-feedback">Por favor, escreva sua mensagem.</div>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="termos" name="termos" required>
+                                                <label class="form-check-label" for="termos">
+                                                    Li e aceito os <a href="#" data-bs-toggle="modal" data-bs-target="#termosModal">termos de uso</a> e a <a href="#" data-bs-toggle="modal" data-bs-target="#privacidadeModal">política de privacidade</a>. *
+                                                </label>
+                                                <div class="invalid-feedback">Você precisa aceitar os termos para continuar.</div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 text-center">
+                                            <button type="button" class="btn btn-primary btn-lg" disabled title="Envio disponível na próxima etapa do projeto (Nota 2)">
+                                                <i class="bi bi-send me-2"></i>Enviar Mensagem
+                                            </button>
+                                            <button type="reset" class="btn btn-outline-secondary btn-lg ms-2">
+                                                <i class="bi bi-x-circle me-2"></i>Limpar
+                                            </button>
+                        
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Informações de Contato -->
+        <section class="py-5 bg-light" aria-labelledby="titulo-info-contato">
+            <div class="container">
+                <div class="row text-center mb-5">
+                    <div class="col">
+                        <h2 id="titulo-info-contato" class="fw-bold text-primary">Outras Formas de Contato</h2>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card border-0 shadow-sm h-100 text-center p-4">
+                            <div class="card-body">
+                                <div class="bg-primary bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
+                                    <i class="bi bi-envelope-fill text-primary fs-1"></i>
+                                </div>
+                                <h5 class="card-title fw-bold">E-mail</h5>
+                                <p class="card-text text-muted">contato@aguavida.com.br</p>
+                                <a href="mailto:contato@aguavida.com.br" class="btn btn-outline-primary btn-sm">
+                                    <i class="bi bi-envelope me-2"></i>Enviar E-mail
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card border-0 shadow-sm h-100 text-center p-4">
+                            <div class="card-body">
+                                <div class="bg-success bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
+                                    <i class="bi bi-geo-alt-fill text-success fs-1"></i>
+                                </div>
+                                <h5 class="card-title fw-bold">Endereço</h5>
+                                <p class="card-text text-muted">UEMA - Universidade Estadual do Maranhão<br>São Luís, MA</p>
+                                <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline-success btn-sm">
+                                    <i class="bi bi-map me-2"></i>Ver no Mapa
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card border-0 shadow-sm h-100 text-center p-4">
+                            <div class="card-body">
+                                <div class="bg-info bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
+                                    <i class="bi bi-clock-fill text-info fs-1"></i>
+                                </div>
+                                <h5 class="card-title fw-bold">Horário</h5>
+                                <p class="card-text text-muted">Segunda a Sexta<br>08:00 às 12:00 / 14:00 às 18:00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Perguntas Frequentes -->
+        <section class="py-5" aria-labelledby="titulo-faq">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 id="titulo-faq" class="fw-bold text-primary mb-4 text-center">Perguntas Frequentes</h2>
+
+                        <div class="accordion" id="faqAccordion">
+                            <div class="accordion-item border-0 shadow-sm mb-3 rounded">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">
+                                        O que é o ODS 6?
+                                    </button>
+                                </h3>
+                                <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body text-muted">
+                                        O ODS 6 é o sexto Objetivo de Desenvolvimento Sustentável da ONU, que visa garantir a disponibilidade e o manejo sustentável da água e do saneamento para todos até 2030.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item border-0 shadow-sm mb-3 rounded">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+                                        Como posso contribuir com o ODS 6?
+                                    </button>
+                                </h3>
+                                <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body text-muted">
+                                        Você pode contribuir economizando água no dia a dia, conscientizando outras pessoas, apoiando projetos de saneamento e cobrando políticas públicas para acesso universal à água.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item border-0 shadow-sm mb-3 rounded">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+                                        Quanto água uma pessoa consome por dia?
+                                    </button>
+                                </h3>
+                                <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body text-muted">
+                                        No Brasil, o consumo médio é de cerca de 150-200 litros por pessoa por dia. Isso inclui banho, descarga, lavagem de roupas, cozinha e outros usos domésticos.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item border-0 shadow-sm mb-3 rounded">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
+                                        Este projeto é apenas acadêmico?
+                                    </button>
+                                </h3>
+                                <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body text-muted">
+                                        Sim, este é um projeto acadêmico desenvolvido na disciplina de Desenvolvimento Web da UEMA. Nosso objetivo é aprender e conscientizar sobre o ODS 6.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal de Termos -->
+    <div class="modal fade" id="termosModal" tabindex="-1" aria-labelledby="termosModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title fw-bold" id="termosModalLabel">Termos de Uso</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>1. Uso do Site</strong></p>
+                    <p>Este site é destinado exclusivamente para fins educacionais e de conscientização sobre o ODS 6.</p>
+                    <p><strong>2. Conteúdo</strong></p>
+                    <p>Todo o conteúdo disponibilizado é de caráter informativo e educacional. Não nos responsabilizamos por decisões tomadas com base nas informações aqui apresentadas.</p>
+                    <p><strong>3. Propriedade Intelectual</strong></p>
+                    <p>As imagens e textos utilizados são de domínio público ou devidamente creditados.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Entendido</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de Privacidade -->
+    <div class="modal fade" id="privacidadeModal" tabindex="-1" aria-labelledby="privacidadeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title fw-bold" id="privacidadeModalLabel">Política de Privacidade</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>1. Dados Coletados</strong></p>
+                    <p>Os dados fornecidos no formulário de contato são utilizados apenas para responder sua mensagem.</p>
+                    <p><strong>2. Uso dos Dados</strong></p>
+                    <p>Os dados não serão compartilhados com terceiros e serão utilizados exclusivamente para o fim solicitado.</p>
+                    <p><strong>3. Segurança</strong></p>
+                    <p>Adotamos medidas de segurança para proteger seus dados pessoais.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Entendido</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5 class="fw-bold"><i class="bi bi-droplet-fill me-2"></i>Água é Vida</h5>
+                    <p class="text-muted small">Projeto acadêmico sobre o ODS 6 - Água Potável e Saneamento.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="small text-muted mb-0">&copy; 2025 Água é Vida - Projeto Acadêmico</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

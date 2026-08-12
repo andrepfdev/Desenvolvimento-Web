@@ -1,0 +1,164 @@
+{
+  "ods": {
+    "id": 6,
+    "nome": "Água Potável e Saneamento",
+    "descricao": "Garantir a disponibilidade e o manejo sustentável da água e do saneamento para todos.",
+    "icone": "bi-droplet-fill",
+    "cor": "#00689D",
+    "metas": [
+      {
+        "codigo": "6.1",
+        "titulo": "Água Potável Universal",
+        "descricao": "Universal e igualitário o acesso a água potável e segura e a um preço acessível para todos."
+      },
+      {
+        "codigo": "6.2",
+        "titulo": "Saneamento Adequado",
+        "descricao": "Acesso a saneamento e higiene adequados e eqüitativos para todos."
+      },
+      {
+        "codigo": "6.3",
+        "titulo": "Qualidade da Água",
+        "descricao": "Melhoria da qualidade da água, redução do lançamento de resíduos e minimização da poluição."
+      },
+      {
+        "codigo": "6.4",
+        "titulo": "Uso Eficiente",
+        "descricao": "Aumento substancial do uso eficiente dos recursos hídricos e asseguramento da sustentabilidade."
+      },
+      {
+        "codigo": "6.5",
+        "titulo": "Gestão Integrada",
+        "descricao": "Implementação da gestão integrada dos recursos hídricos em todos os níveis."
+      },
+      {
+        "codigo": "6.6",
+        "titulo": "Proteção dos Ecossistemas",
+        "descricao": "Proteção e restauração dos ecossistemas relacionados à água."
+      }
+    ],
+    "estatisticas": [
+      {
+        "valor": "2B+",
+        "label": "Pessoas sem água potável",
+        "icone": "bi-droplet",
+        "cor": "primary"
+      },
+      {
+        "valor": "80%",
+        "label": "Águas residuais sem tratamento",
+        "icone": "bi-exclamation-triangle",
+        "cor": "danger"
+      },
+      {
+        "valor": "700M",
+        "label": "Pessoas sem saneamento",
+        "icone": "bi-house-x",
+        "cor": "warning"
+      },
+      {
+        "valor": "72%",
+        "label": "Água doce para irrigação",
+        "icone": "bi-droplet-half",
+        "cor": "success"
+      }
+    ]
+  },
+  "dicas": [
+    {
+      "id": 1,
+      "titulo": "Banho Rápido",
+      "descricao": "Reduza seu banho para no máximo 10 minutos. Um banho de 15 minutos gasta cerca de 135 litros de água.",
+      "economia": "~60L por banho",
+      "categoria": "banheiro",
+      "icone": "bi-droplet",
+      "cor": "primary"
+    },
+    {
+      "id": 2,
+      "titulo": "Feche a Torneira",
+      "descricao": "Não deixe a água correr desnecessariamente. Ao escovar os dentes ou passar sabonete, feche a torneira.",
+      "economia": "~12L por minuto",
+      "categoria": "banheiro",
+      "icone": "bi-tap",
+      "cor": "success"
+    },
+    {
+      "id": 3,
+      "titulo": "Conserte Vazamentos",
+      "descricao": "Um vazamento pequeno pode desperdiçar mais de 30 litros por dia. Verifique torneiras e caixas d'água regularmente.",
+      "economia": "~30L por dia",
+      "categoria": "banheiro",
+      "icone": "bi-box-seam",
+      "cor": "info"
+    },
+    {
+      "id": 4,
+      "titulo": "Lave Louça com Bacia",
+      "descricao": "Lave a louça em uma bacia com água e sabão, enxaguando apenas no final. Evite lavar com a torneira aberta.",
+      "economia": "~40L por lavagem",
+      "categoria": "cozinha",
+      "icone": "bi-droplet-half",
+      "cor": "warning"
+    },
+    {
+      "id": 5,
+      "titulo": "Use a Geladeira",
+      "descricao": "Mantenha a geladeira bem vedada e na temperatura adequada. Defeitos podem aumentar o consumo de energia e água.",
+      "economia": "indireta",
+      "categoria": "cozinha",
+      "icone": "bi-cup",
+      "cor": "primary"
+    },
+    {
+      "id": 6,
+      "titulo": "Reutilize Água",
+      "descricao": "Reutilize a água de lavar legumes para regar plantas. É água limpa que pode ser aproveitada.",
+      "economia": "~5L por dia",
+      "categoria": "cozinha",
+      "icone": "bi-leaf",
+      "cor": "success"
+    },
+    {
+      "id": 7,
+      "titulo": "Carga Completa",
+      "descricao": "Só lave com carga completa. Meia carga gasta a mesma quantidade de água que carga cheia.",
+      "economia": "significativa",
+      "categoria": "lavanderia",
+      "icone": "bi-boxes",
+      "cor": "info"
+    },
+    {
+      "id": 8,
+      "titulo": "Água da Chuva",
+      "descricao": "Instale tonéis para coletar água da chuva para regar plantas e outros usos não potáveis.",
+      "economia": "variável",
+      "categoria": "jardim",
+      "icone": "bi-cloud-rain",
+      "cor": "primary"
+    },
+    {
+      "id": 9,
+      "titulo": "Horário Certo",
+      "descricao": "Regue plantas pela manhã cedo ou à noite, evitando evaporação pelo sol.",
+      "economia": "~30% menos água",
+      "categoria": "jardim",
+      "icone": "bi-clock",
+      "cor": "success"
+    },
+    {
+      "id": 10,
+      "titulo": "Mulching",
+      "descricao": "Use palha ou folhas secas no solo para reter umidade e reduzir a necessidade de regas.",
+      "economia": "~40% menos regas",
+      "categoria": "jardim",
+      "icone": "bi-moisture",
+      "cor": "info"
+    }
+  ],
+  "apiEndpoints": {
+    "goals": "https://unstats.un.org/sdgapi/v1/sdg/Goal/List",
+    "goalData": "https://unstats.un.org/sdgapi/v1/sdg/Goal/Data?goalCode=6",
+    "targets": "https://unstats.un.org/sdgapi/v1/sdg/Goal/6/Target/List"
+  }
+}

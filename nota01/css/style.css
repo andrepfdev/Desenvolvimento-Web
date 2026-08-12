@@ -1,0 +1,302 @@
+/* ========================================
+   Água é Vida - Estilos Principais
+   ODS 6 - Água Potável e Saneamento
+   ======================================== */
+
+/* Variáveis CSS */
+:root {
+    --primary-color: #00689D;
+    --primary-dark: #004E7A;
+    --secondary-color: #00A5CF;
+    --accent-color: #009FD4;
+    --success-color: #4CAF50;
+    --warning-color: #FFC107;
+    --danger-color: #F44336;
+    --text-color: #333333;
+    --text-muted: #6c757d;
+    --bg-light: #f8f9fa;
+    --white: #ffffff;
+    --shadow-sm: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    --shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    --transition: all 0.3s ease;
+}
+
+/* Reset e Estilos Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--text-color);
+    line-height: 1.6;
+    padding-top: 56px;
+}
+
+/* Navbar */
+.navbar {
+    transition: var(--transition);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.navbar.scrolled {
+    box-shadow: var(--shadow);
+}
+
+/* Hero Section */
+.hero-section {
+    min-height: 80vh;
+    background: linear-gradient(135deg, #00689D 0%, #00A5CF 100%);
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    opacity: 0.5;
+}
+
+.hero-section .container {
+    position: relative;
+    z-index: 1;
+}
+
+/* Cards */
+.card {
+    transition: var(--transition);
+    border-radius: 12px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow);
+}
+
+.icon-box {
+    width: 80px;
+    height: 80px;
+}
+
+/* Seções */
+section {
+    scroll-margin-top: 56px;
+}
+
+/* Badges */
+.badge {
+    border-radius: 20px;
+    padding: 0.5em 1em;
+}
+
+/* Botões */
+.btn {
+    border-radius: 8px;
+    padding: 0.6rem 1.5rem;
+    font-weight: 500;
+    transition: var(--transition);
+}
+
+.btn-lg {
+    padding: 0.8rem 2rem;
+}
+
+/* Listas */
+.list-group-item {
+    border-left: none;
+    border-right: none;
+    padding: 1rem 0;
+}
+
+.list-group-item:first-child {
+    border-top: none;
+}
+
+/* Footer */
+footer {
+    margin-top: auto;
+}
+
+footer a:hover {
+    color: var(--white) !important;
+}
+
+/* Ilustração ODS 6 */
+.ods6-illustration {
+    background: linear-gradient(135deg, rgba(0, 104, 157, 0.1) 0%, rgba(0, 165, 207, 0.1) 100%);
+    border-radius: 20px;
+}
+
+/* Formulário */
+.form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.2rem rgba(0, 104, 157, 0.25);
+}
+
+/* Página de Dicas */
+.dica-card {
+    border-left: 4px solid var(--primary-color);
+    transition: var(--transition);
+}
+
+.dica-card:hover {
+    border-left-color: var(--secondary-color);
+    transform: translateX(5px);
+}
+
+/* Página Sobre */
+.sobre-hero {
+    background: linear-gradient(135deg, #00689D 0%, #00A5CF 100%);
+    padding: 100px 0 60px;
+    color: white;
+}
+
+/* Timeline */
+.timeline {
+    position: relative;
+    padding-left: 30px;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: var(--primary-color);
+}
+
+.timeline-item {
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -33px;
+    top: 5px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--primary-color);
+    border: 3px solid var(--white);
+    box-shadow: var(--shadow-sm);
+}
+
+/* Acessibilidade */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: var(--primary-color);
+    color: var(--white);
+    padding: 8px;
+    z-index: 100;
+}
+
+.skip-link:focus {
+    top: 0;
+}
+
+/* Foco visível para navegação por teclado */
+:focus-visible {
+    outline: 3px solid var(--accent-color);
+    outline-offset: 2px;
+}
+
+/* Contraste adequado */
+.text-muted {
+    color: #5a6268 !important;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .hero-section {
+        min-height: 60vh;
+    }
+
+    .hero-section h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-section .lead {
+        font-size: 1rem;
+    }
+
+    .icon-box {
+        width: 60px;
+        height: 60px;
+    }
+
+    .display-5 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-section {
+        min-height: 50vh;
+    }
+
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+
+    .btn-lg {
+        padding: 0.6rem 1.5rem;
+        font-size: 1rem;
+    }
+}
+
+/* Animações */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.card, .list-group-item {
+    animation: fadeInUp 0.5s ease-out;
+}
+
+/* Carrossel (se necessário) */
+.carousel-item {
+    transition: transform 0.6s ease-in-out;
+}
+
+/* Impressão */
+@media print {
+    .navbar, footer, .btn {
+        display: none;
+    }
+
+    body {
+        padding-top: 0;
+    }
+
+    .hero-section {
+        min-height: auto;
+        padding: 20px;
+    }
+}

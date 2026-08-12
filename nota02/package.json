@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Água é Vida - Aplicação React sobre ODS 6",
   "private": true,
+  "homepage": "https://andrepfdev.github.io/Desenvolvimento-Web",
   "dependencies": {
     "bootstrap": "^5.3.8",
     "bootstrap-icons": "^1.13.1",

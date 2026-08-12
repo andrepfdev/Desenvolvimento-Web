@@ -9,7 +9,7 @@ import Estatisticas from './pages/Estatisticas';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Desenvolvimento-Web">
       <div className="App d-flex flex-column min-vh-100">
         <Header />
         <div className="flex-grow-1">
